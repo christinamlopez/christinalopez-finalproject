@@ -9,7 +9,19 @@
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
       "type": "sheet",
       "name": "bookstores"
+    },
+    {
+      "fileId": "11N3gk1bR3OgemSQtEzmxbyUN1Vh_ZeJJA0is9SrPzlc",
+      "type": "doc",
+      "name": "top movies"
+    },
+     
+    {
+      "fileId": "1WYJgIS35NAMX_KlOkjwTq_Qg3e0-vP09LpMQwiFoUFs",
+      "type": "doc",
+      "name": "5_reviews"
     }
+
   ],
   "to_bake": [
     {
@@ -18,6 +30,13 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    }, 
+
+    {
+      "template": "bake-top5",
+      "data": "5_reviews",
+      "array": "movies",
+      "slug": "slug"
     }
   ]
 }

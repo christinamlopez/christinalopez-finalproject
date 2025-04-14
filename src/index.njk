@@ -1,29 +1,28 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Index page title{% endblock %}
+{% block page_title %}Lopez Family's Favorite Movies{% endblock %}
 
 {% block page_description %}The index search description for this page goes here.{% endblock %}
 
 {% block content %}
 <div class="container">
-  <h1>Main headline here</h1>
+  <h1>Lopez Family's Favorite Movies</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
+  <h2>Our Top 5 movie reviews</h2>
+  <p>Check out what we think of our top 5 movies</p>
   <div class="row">
-    {% for book in library.books %}
+    {% for review in 5_reviews.movies %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <h3><a href="{{ relative_path }}reviews/{{ 5_reviews.slug }}.html" target="_blank">{{ review.title }}</a></h3>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
+  <h2>Our top 10 movies</h2>
+  <p>We like a lot of movies, but if we had to narrow it down, here are our top 10.</p>
   <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
+  {% for movie in top_movies.movies %}
+    <h3><a href="{{ movie.url }}" target="_blank">{{ movie.title }}</a></h3>
+    <p>{{ movie.date }}, {{ movie.quote }}</p>
     <hr>
   {% endfor %}
 </div>

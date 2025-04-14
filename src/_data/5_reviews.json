@@ -1,0 +1,54 @@
+{
+  "movies": [
+    {
+      "slug": "movie 1",
+      "title": "Meet Me in St. Louis",
+      "url": "https://www.imdb.com/title/tt0037059/?ref_=fn_all_ttl_1",
+      "date": "November, 1944",
+      "image": "meet-me-in-st-louis.jpg",
+      "quote": "“Meeting him across the lawn for the first time would be so ordinary. I don't want to be just introduced to him. I want it to be something strange and romantic and something I'll always remember.”",
+      "post": [
+        {
+          "type": "text",
+          "value": "Good movie"
+        }
+      ]
+    },
+    {
+      "slug": "movie 2",
+      "title": "Beauty Shop",
+      "url": "https://www.imdb.com/title/tt0388500/?ref_=fn_all_ttl_1",
+      "date": "March 30, 2005",
+      "image": "beauty-shop.jpg",
+      "quote": "“30 thousand dollars?! What the hell kind of a shop can I buy with that!”",
+      "post": []
+    },
+    {
+      "slug": "movie 3",
+      "title": "The Hundred-Foot Journey",
+      "url": "https://www.imdb.com/title/tt2980648/?ref_=fn_all_ttl_1",
+      "date": "August 8, 2014",
+      "image": "the-100-foot-journey.jpg",
+      "quote": "“Papa, it is a very sweet location and the building is fine, but there is a problem, which makes it impossible for us to open a restaurant there. There is already a restaurant.”",
+      "post": []
+    },
+    {
+      "slug": "movie 4",
+      "title": "Pride and Prejudice",
+      "url": "https://www.imdb.com/title/tt0414387/?ref_=fn_all_ttl_1",
+      "date": "November 11, 2005",
+      "image": "pride-and-prejudice.jpg",
+      "quote": "“If, however, your feelings have changed, I will have to tell you: you have bewitched me, body and soul, and I love--I love--I love you. I never wish to be parted from you from this day on.”",
+      "post": []
+    },
+    {
+      "slug": "movie 5",
+      "title": "Just Go With It",
+      "url": "https://www.imdb.com/title/tt1564367/?ref_=fn_all_ttl_1",
+      "date": "February 11, 2011",
+      "image": "just-go-with-it.jpg",
+      "quote": "“Mom, before we go can I make a Devlin?”",
+      "post": []
+    }
+  ]
+}
