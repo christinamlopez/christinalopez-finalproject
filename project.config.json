@@ -13,13 +13,19 @@
     {
       "fileId": "11N3gk1bR3OgemSQtEzmxbyUN1Vh_ZeJJA0is9SrPzlc",
       "type": "doc",
-      "name": "top movies"
+      "name": "top_movies"
     },
      
     {
       "fileId": "1WYJgIS35NAMX_KlOkjwTq_Qg3e0-vP09LpMQwiFoUFs",
       "type": "doc",
       "name": "5_reviews"
+    }, 
+
+    {
+      "fileId": "1evMgETsgRpbUEMQTAUTLBH2BEVQ9toazCEdDbMhptMI",
+      "type": "doc", 
+      "name": "honorable_mentions"
     }
 
   ],
@@ -36,7 +42,8 @@
       "template": "bake-top5",
       "data": "5_reviews",
       "array": "movies",
-      "slug": "slug"
+      "slug": "slug",
+      "path": "5_reviews"
     }
   ]
 }

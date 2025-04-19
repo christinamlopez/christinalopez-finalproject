@@ -1,5 +1,7 @@
 {% extends '_templates/base.njk' %}
+
 {% set relative_path = "../" %}
+
 {% from '_macros/prose.njk' import prose %}
 
 {% block page_title %}Top 5 movie reviews{{ headline }}{% endblock %}
@@ -10,9 +12,9 @@
   <article class="container">
     <div class="row">
       <div class="col-sm-4">
-        <img src="../img/pirate.jpg" alt="pirate character" class="img-fluid">
-        <p class="byline">By Crit McGillicutty<br>
-        <span>Island Breeze Tribune</span></p>
+        <img src="../img/{{ image }}" alt="movie poster" class="img-fluid">
+        <h5>{{ date }}</h5>
+        <span>{{ quote }}</span>
         <hr class="d-sm-none">
       </div>
       <div class="col-sm-8">

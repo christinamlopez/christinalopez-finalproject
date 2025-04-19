@@ -4,17 +4,23 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="{{ relative_path }}about_us.html">About Us</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Library books
+            Top 5 Reviews
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {% for book in library.books %}
-            <li><a class="dropdown-item" href="{{ relative_path }}books/{{ book.slug}}.html">{{ book.title }}</a></li>
+            {% for review in 5_reviews.movies %}
+            <li><a class="dropdown-item" href="{{ relative_path }}5_reviews/{{ review.slug}}.html">{{ review.title }}</a></li>
             {% endfor %}
           </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ relative_path }}honorable_mentions.html">Honorable Mentions</a>
         </li>
       </ul>
     </div>

@@ -1,5 +1,13 @@
 /* nav */
 
 .navbar {
-  margin-bottom: 20px;
+  padding-bottom: none;
+  
+  a:hover{ 
+    text-decoration: underline;
+  }
+  a:visited{
+    color: white;
+    text-decoration: none;
+  }
 }

@@ -1,0 +1,27 @@
+<!-- turned this into an include bc it was frying my brain looking at it so often and didn't want to keep potentially messing it up so I moved it away -->
+
+<div class="row row-cols-1 row-cols-md-2 g-4 row-cols-lg-3">
+    {% for movie in top_movies.movies %}
+   <div class="col">
+    <div class="card h-100 text-bg-light mb-3 border-info mb-3">
+      <img src="img/{{ movie.image }}" class="card-img-top" alt="..." class="img-fluid">
+      <div class="card-body">
+        <h5 class="card-title">{{ movie.title }}</h5>
+        <h6>{{ movie.date }}</h6>
+        <p class="card-text">{{ movie.quote }}</p>
+      </div>
+      <div class="card-footer">
+         <a href="{{ movie.url }}" class="btn btn-primary" target="_blank">IMDB page</a>
+      </div>
+    </div>
+   </div>
+  {% endfor %}
+  </div>
+
+  <!--
+  {% for movie in top_movies.movies %}
+    <h3><a href="{{ movie.url }}" target="_blank">{{ movie.title }}</a></h3>
+    <p>{{ movie.date }}, {{ movie.quote }}</p>
+    <hr>
+  {% endfor %}
+-->

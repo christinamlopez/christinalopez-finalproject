@@ -19,10 +19,35 @@
 // @import "../../node_modules/bootstrap/scss/mixins";
 
 // Import partials
+
+
 @import 'nav';
 
-h3 {
-  font-size: 1.5rem;
+@import "jumbotron";
+
+@import "container";
+
+@import "cards";
+
+.card-text{
+  font-size: 1.3rem;
+  padding: auto;
 }
 
-@import "jumbotron";
+.family-bio{
+  font-size: 1.3rem;
+  padding: auto;
+  width: auto;
+}
+
+img{
+  height: 350px;
+  width: 550px;
+  margin-bottom: 20px;
+}
+
+img.img-fluid{
+  width: 400px;
+  height: 350px;
+}
+

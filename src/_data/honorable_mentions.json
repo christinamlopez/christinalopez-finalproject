@@ -1,0 +1,64 @@
+{
+  "movies": [
+    {
+      "slug": "hocus pocus",
+      "title": "Hocus Pocus",
+      "date": "November, 1944",
+      "image": "hocus-pocus.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "No Halloween season is complete without watching this Disney classic"
+        }
+      ]
+    },
+    {
+      "slug": "the blackening",
+      "title": "The Blackening",
+      "date": "March 30, 2005",
+      "image": "the-blackening.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "One of my dad’s airplane movie finds that’s now a family favorite"
+        }
+      ]
+    },
+    {
+      "slug": "arsenic and old lace",
+      "title": "Arsenic and Old Lace",
+      "date": "August 8, 2014",
+      "image": "arsenic-and-old-lace.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "Cary Grant is a big deal in our house"
+        }
+      ]
+    },
+    {
+      "slug": "on moonlight bay",
+      "title": "On Moonlight Bay",
+      "date": "November 11, 2005",
+      "image": "on-moonlight-bay.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "Doris Day is also a big deal in our house"
+        }
+      ]
+    },
+    {
+      "slug": "bring it on",
+      "title": "Bring It On",
+      "date": "February 11, 2011",
+      "image": "bring-it-on.jpg",
+      "post": [
+        {
+          "type": "text",
+          "value": "Maybe my sister and I shouldn’t have been watching this at a young age"
+        }
+      ]
+    }
+  ]
+}

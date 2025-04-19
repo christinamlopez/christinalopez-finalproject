@@ -1,54 +1,74 @@
 {
   "movies": [
     {
-      "slug": "movie 1",
+      "slug": "movie-1",
       "title": "Meet Me in St. Louis",
       "url": "https://www.imdb.com/title/tt0037059/?ref_=fn_all_ttl_1",
       "date": "November, 1944",
-      "image": "meet-me-in-st-louis.jpg",
+      "image": "meet-me-in-st.-louis.jpg",
       "quote": "“Meeting him across the lawn for the first time would be so ordinary. I don't want to be just introduced to him. I want it to be something strange and romantic and something I'll always remember.”",
       "post": [
         {
           "type": "text",
-          "value": "Good movie"
+          "value": "Vincent Minelli’s “Meet Me In St. Louis” is a movie like no other, a technicolor American dream/love story. Minelli, along with Hollywood starlet and icon Judy Garland, masterfully capture a midwestern life that seems perfect. From the summer music numbers, the suspense of the fall, the whimsy of Christmas and the hope of the new year makes for the perfect movie for our family."
         }
       ]
     },
     {
-      "slug": "movie 2",
+      "slug": "movie-2",
       "title": "Beauty Shop",
       "url": "https://www.imdb.com/title/tt0388500/?ref_=fn_all_ttl_1",
       "date": "March 30, 2005",
       "image": "beauty-shop.jpg",
       "quote": "“30 thousand dollars?! What the hell kind of a shop can I buy with that!”",
-      "post": []
+      "post": [
+        {
+          "type": "text",
+          "value": "This movie has gone platinum in our house. Since its release, our family has rewatched and rewatched and rewatched this Barbershop spin-off. Every scene elicits laughter from us along with an almost perfect word-for-word recitation of the dialogue. Our favorite quotes are “This ain’t no remake of white mama black mama! I’ll throw the peace card on ya!” “Said the girl who got Popeyes to cater her wedding…” and “You ain’t got no hair! What’s he gonna do, braid ya scalp?”"
+        }
+      ]
     },
     {
-      "slug": "movie 3",
+      "slug": "movie-3",
       "title": "The Hundred-Foot Journey",
       "url": "https://www.imdb.com/title/tt2980648/?ref_=fn_all_ttl_1",
       "date": "August 8, 2014",
-      "image": "the-100-foot-journey.jpg",
+      "image": "the-hundred-foot-journey.jpg",
       "quote": "“Papa, it is a very sweet location and the building is fine, but there is a problem, which makes it impossible for us to open a restaurant there. There is already a restaurant.”",
-      "post": []
+      "post": [
+        {
+          "type": "text",
+          "value": "My parents took my sister and I to see this movie in theaters without telling us what movie we were watching or what it was about. The colors, sound and story of “The Hundred-Foot Journey” makes for a perfect feel-good and easy watch. Lasse Hallström has a history of directing these feel-good and uplifting movies but we give this one 5 Michelin stars. Helen Mirren delicately dances between a stuck-up restauranter and a kind hearted woman that reminds you of the positive impact of getting out of your comfort zone and being open to connecting with new types of people."
+        }
+      ]
     },
     {
-      "slug": "movie 4",
+      "slug": "movie-4",
       "title": "Pride and Prejudice",
       "url": "https://www.imdb.com/title/tt0414387/?ref_=fn_all_ttl_1",
       "date": "November 11, 2005",
       "image": "pride-and-prejudice.jpg",
       "quote": "“If, however, your feelings have changed, I will have to tell you: you have bewitched me, body and soul, and I love--I love--I love you. I never wish to be parted from you from this day on.”",
-      "post": []
+      "post": [
+        {
+          "type": "text",
+          "value": "My mom is an Austenite, through and through. Whenever she doesn’t know what she wants to watch, she quickly decides on “Pride and Prejudice.” She has multiple copies of this film in physical and digital media. I used to hate this film because it was boring to me. But once I got older, elongated my attention span and exposed myself to more classical literature, I started to appreciate the incredible storytelling of Jane Austen and the production of the 2005 film. My dad loves this movie, not for the story, but for the cinematography. He says every frame is like a live renaissance painting. I’d have to agree."
+        }
+      ]
     },
     {
-      "slug": "movie 5",
+      "slug": "movie-5",
       "title": "Just Go With It",
       "url": "https://www.imdb.com/title/tt1564367/?ref_=fn_all_ttl_1",
       "date": "February 11, 2011",
       "image": "just-go-with-it.jpg",
       "quote": "“Mom, before we go can I make a Devlin?”",
-      "post": []
+      "post": [
+        {
+          "type": "text",
+          "value": "Our family are big Adam Sandler fans and Just Go With It is probably our collective favorite. My sister discovered this movie when she stayed home sick from elementary school and was trying to find something to watch. A few weeks later, my dad was in the living room, switching through channels on the TV when my sister said “Hey, Just Go With It! That’s a good movie,” which shocked my dad since he didn’t know how she had seen it in the first place. We finally watched it as a family and it quickly became part of our top favorite movies list. Jennifer Aniston and Adam Sandler have such easy chemistry that when they have fun in the film, so do you."
+        }
+      ]
     }
   ]
 }
