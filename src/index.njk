@@ -1,19 +1,20 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Lopez Family's Favorite Movies{% endblock %}
+{% block page_title %}Our Top Movies{% endblock %}
 
-{% block page_description %}The index search description for this page goes here.{% endblock %}
+{% block page_description %}Lopez Family's Favorite Movies{% endblock %}
 
 {% block content %}
 <div class="container">
-  <h1>Lopez Family's Favorite Movies</h1>
+  <h2>Lopez Family's Favorite Movies</h2>
   <p>Welcome to my website about some of my family's favorite movies! We have watched many movies and films together, making it one of our favorite ways to connect as a family. From classic movie musicals, to comedies to superhero movies, our family will always find enjoyment in cinema either at the theater or on our family couch. </p>
   <h2>Our Top 5 movie reviews</h2>
   <p>Check out what we think of our top 5 movies</p>
-  <div class="row">
+
+  <div class="row row-cols-2 row-cols-md-3 g-4 row-cols-lg-5">
     {% for review in 5_reviews.movies %}
-      <div class="col">
-        <img src="img/{{ review.image }}" alt="" class="img-fluid">
+      <div class="col sm-3">
+        <img src="img/{{ review.image }}" alt="movie poster" class="img-fluid">
         <h3><a href="{{ relative_path }}5_reviews/{{ review.slug }}.html" target="_blank">{{ review.title }}</a></h3>
       </div>
     {% endfor %}

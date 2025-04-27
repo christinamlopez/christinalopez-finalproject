@@ -20,34 +20,55 @@
 
 // Import partials
 
+$primary-color: rgb(9, 94, 76);
+$secondary-color: #ffffe7;
+
+
 
 @import 'nav';
 
 @import "jumbotron";
 
-@import "container";
-
 @import "cards";
 
-.card-text{
-  font-size: 1.3rem;
+
+p {
+  width: auto;
+  min-width: auto;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
   padding: auto;
 }
 
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2, h6 {
+  font-family: "Special Gothic Expanded One", "Roboto", sans-serif;
+  color: $primary-color;
+}
+
+h5 {
+  margin-top: 15px;
+  font-family: "Special Gothic Expanded One", "Roboto", sans-serif;
+}
+
+h3{
+  margin-bottom: none;
+  padding: none;
+  line-height: 1.2rem;
+  font-size: 1.5rem;
+}
+
 .family-bio{
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding: auto;
   width: auto;
 }
 
-img{
-  height: 350px;
-  width: 550px;
-  margin-bottom: 20px;
+.caption{
+  font-size: 1rem;
 }
-
-img.img-fluid{
-  width: 400px;
-  height: 350px;
-}
-
